@@ -12,5 +12,16 @@
 </head>
 <body>
  这是我的首页，我们将进行首页内容的添加
+ <img src="img/timg.jpg" id="timg">
+
+<img src="img/img1.jpg" id="img1">
+
+ <img src="img/img2.jpg" id="img2">
+
+ <img src="img/img3.jpg" id="img3">
+
+ <img src="img/img4.jpg" id="img4">
+
+ <img src="img/img5.jpg" id="img5">
 </body>
 </html>
