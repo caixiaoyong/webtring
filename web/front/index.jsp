@@ -46,7 +46,7 @@
 <!--轮播 -->
 
 </body>
-<!-- 引入JS命令 实现第一段代码页面效果-->
+<!-- 引入JS命令 实现第一段代码页面效果。-->
 <script src="js/jquery.min.js">
 </script>
 <script src="js/jquery-ui.min.js">
