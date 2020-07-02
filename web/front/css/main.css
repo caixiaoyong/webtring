@@ -33,20 +33,20 @@ body {
 	overflow-x:hidden;
 }
 .wrap{
-	margin:0 auto;
+	margin:0 auto;/*上下外边距为0 左右自动*/
 	width:90%;
 }
 .header_bg{
 	background: #2c3947;
 }
 .header{
-	padding: 2% 5%;
+	padding: 2% 5%;/*内边距*/
 }
 .logo{
-	float: left;
+	float: left;/*元素向左浮动*/
 }
 .cssmenu {
-	float: right;
+	float: right;/*元素向右浮动*/
 }
 .cssmenu ul {
 	position:relative;
@@ -389,7 +389,7 @@ body {
 
     .pull-icon{
         float: right;
-        display: block;
+        display: block;/*显示块级元素*/
     }
     .move-slide{
         

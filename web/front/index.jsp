@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/main.css" type="text/css" media="all">
 </head>
 <body>
-
+<%@include file="common.jsp"%><!--共享代码-->
 <!--轮播 -->
 <div id="fwslider" style="height: 554px;">
     <div class="slider_container">
