@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="css/main.css" type="text/css" media="all">
 </head>
 <body>
-<%@include file="common.jsp"%><!--共享代码-->
-<!--轮播 -->
+<%@include file="common.jsp"%><!-- 4 共享代码，设计顶部导航栏-->
+<!-- 1 图片轮播效果 -->
 <div id="fwslider" style="height: 554px;">
     <div class="slider_container">
         <div class="slide" style=" opacity: 1; z-index: 0; display: none;">
@@ -32,7 +32,7 @@
             <img id="img5" src="img/img5.jpg">
         </div>
     </div>
-    <!-- 切换图片 （第一段代码页面） -->
+    <!-- 2 按时切换图片 （第一段代码页面） -->
     <div class="timers" style="width: 180px;">
     </div>
     <div class="slidePrev" style="left: 0px; top: 252px;opacity:1;">
@@ -41,12 +41,45 @@
     <div class="slideNext" style="right: 0px; top: 252px; opacity: 0.5;">
         <span></span>
     </div>
-    <!-- 切换图片  -->
+    <!-- 按时间切换图片  -->
 </div>
-<!--轮播 -->
+<!--图片轮播效果 -->
+
+<!-- 5 start main设计底部功能栏开始-->
+<div class="main_bg">
+    <div class="business">
+        业务领域 BUSINESS
+    </div>
+    <div class="wrap w_72">
+        <div class="grids_1_of_3">
+            <div class="grid_1_of_3  images_1_of_3">
+                <img src="img/pic1.png" >
+
+            </div>
+            <div class="grid_1_of_3  images_1_of_3">
+                <img src="img/pic2.png" >
+
+            </div>
+            <div class="grid_1_of_3  images_1_of_3">
+                <img src="img/pic3.png" >
+
+            </div>
+            <div class="grid_1_of_3  images_1_of_3">
+                <img src="img/pic4.png" >
+
+            </div>
+            <div class="grid_1_of_3  images_1_of_3"  style="background: none">
+                <img src="img/pic5.png" >
+
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+<!-- 设计底部功能栏结束-->
 
 </body>
-<!-- 引入JS命令 实现第一段代码页面效果。-->
+<!-- 4 引入JS命令 实现第一段代码页面效果。-->
 <script src="js/jquery.min.js">
 </script>
 <script src="js/jquery-ui.min.js">

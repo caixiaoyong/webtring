@@ -219,7 +219,7 @@ body {
 }
 /* start main */
 .main_bg{
-	background:url(../img/bg.png) repeat #2c3947;
+	background:url(../img/bg.png) repeat #2c3947;/*背景图片为../img/bg.png  填充颜色#2c3947*/
 }
 
 .grids_1_of_3{
@@ -240,14 +240,14 @@ body {
 } 
 .images_1_of_3 {
 	width: 20%;
-	background:url(../img/right.jpg) no-repeat right;
+	background:url(../img/right.jpg) no-repeat right;/*背景图片为../img/right.jpg  图片不重复，在水平方向上贴容器或浏览器页面的右侧*/
 }
 
 .business{
-	width:70%; padding:1% 1%; margin:0 auto; background:#2c3947;color:#fff; font-weight:bold;
+	width:70%; padding:1% 1%; margin:0 auto; background:#2c3947;color:#fff; font-weight:bold;/*字体的粗细*/
 	border-left:1px solid #2c3947;
 	border-right:1px solid #2c3947;
-	border-bottom:1px solid #2c3947;
+	border-bottom:1px solid #2c3947;/*底部边框样式*/
 }
 .address{
 	text-align:center; 
