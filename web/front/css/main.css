@@ -253,8 +253,8 @@ body {
 	text-align:center; 
 	padding:1% 0; 
 	margin:0 auto;
-	line-height:2em;
-	font-size: 14px;
+	line-height:2em;/*行高*/
+	font-size: 14px;/*字高*/
 	width:90%;
 }
 .contact{

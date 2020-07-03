@@ -6,6 +6,13 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%
+    String path = request.getContextPath();
+    String basePath = request.getScheme() + "://"
+            + request.getServerName() + ":" + request.getServerPort()
+            + path;
+%>
+
 <html>
 <head>
     <title>我的首页</title>
@@ -77,6 +84,15 @@
     </div>
 </div>
 <!-- 设计底部功能栏结束-->
+<div class="address">
+    				Copyright 2016 明日科技有限公司 All Rights.
+    				<br>
+    				<a href="http://www.mingrisoft.com">吉林省明日科技有限公司</a> 技术支持
+    				<a href="<%=basePath%>/admin/login.jsp">后台</a>
+    				<br>
+    				吉ICP备  10002740号-2  吉公网安备22010202000132号
+    			</div>
+			<div class="clear"></div>
 
 </body>
 <!-- 4 引入JS命令 实现第一段代码页面效果。-->
