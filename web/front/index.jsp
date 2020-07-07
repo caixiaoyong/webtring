@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!--  6.1 显示版权信息-->
 <%
     String path = request.getContextPath();
     String basePath = request.getScheme() + "://"
@@ -19,7 +20,8 @@
     <link rel="stylesheet" href="css/main.css" type="text/css" media="all">
 </head>
 <body>
-<%@include file="common.jsp"%><!-- 4 共享代码，设计顶部导航栏-->
+
+<%@include file="common_header.jsp"%><!-- 4 共享代码，设计顶部导航栏-->
 <!-- 1 图片轮播效果 -->
 <div id="fwslider" style="height: 554px;">
     <div class="slider_container">
@@ -84,6 +86,7 @@
     </div>
 </div>
 <!-- 设计底部功能栏结束-->
+<!--  6.2 显示版权信息-->
 <div class="address">
     				Copyright 2016 明日科技有限公司 All Rights.
     				<br>
@@ -95,7 +98,7 @@
 			<div class="clear"></div>
 
 </body>
-<!-- 4 引入JS命令 实现第一段代码页面效果。-->
+<!-- 3 引入JS命令 实现第一段代码页面效果。-->
 <script src="js/jquery.min.js">
 </script>
 <script src="js/jquery-ui.min.js">

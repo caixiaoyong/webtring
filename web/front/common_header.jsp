@@ -1,6 +1,5 @@
 
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <title>公共页面顶部导航栏</title>
