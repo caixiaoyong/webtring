@@ -101,7 +101,6 @@
 </script>
 
 
-</script>
 
-<
-/html>
+
+</html>
